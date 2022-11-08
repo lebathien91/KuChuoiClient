@@ -8,7 +8,6 @@ const initialState = {
   notify: {},
   auth: { loading: true },
   socket: null,
-  global: {},
 };
 
 export const GlobalContext = createContext<any>(initialState);
